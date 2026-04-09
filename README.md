@@ -10,7 +10,7 @@ exploratory analysis, descriptive analysis, and time intelligence.
 - Power BI
 
 ## Dataset
-AdventureWorks — 10 tables including 3 years of sales data (2015-2017),
+AdventureWorks - 10 tables including 3 years of sales data (2015-2017),
 customers, products, returns, territories, and a calendar table.
 
 ## Project Status
