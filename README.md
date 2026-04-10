@@ -20,8 +20,8 @@ In Progress
 
 | File | Description | Status |
 |---|---|---|
-| [01_exploratory_analysis.sql](./01_exploratory_analysis.sql) | Row counts, data quality checks, date ranges | In Progress |
-| 02_descriptive_analysis.sql | Revenue summaries, top products, categories |  Not Started |
+| [01_exploratory_analysis.sql](./01exploratory_analysis.sql) |  | Row counts, data quality checks, date ranges | Complete |
+| [02_descriptive_analysis.sql](./02descriptive_analysis.sql) | Revenue summaries, top products, customers, territories, returns | Complete |
 | 03_time_intelligence.sql | Month over month, seasonality, running totals |  Not Started |
 | 04_customer_analysis.sql | Top customers, segments, new vs returning |  Not Started |
 | 05_returns_analysis.sql | Return rates, problem products, regions | Not Started |
