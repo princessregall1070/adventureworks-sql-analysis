@@ -29,6 +29,63 @@ In Progress
 ## Key Findings
 *(Will be updated as analysis progresses)*
 
-- Finding 1
-- Finding 2
-- Finding 3
+- ## Key Findings
+
+### Data Overview
+- 10 tables covering 3 years of sales (2015 through June 2017)
+- 56,046 total transactions across 18,148 customers and 293 products
+- 2017 data ends June 30 -- all 2017 figures represent first half only
+- 148 of 293 products (50.5% of catalog) never sold in any year
+- Components category (132 products) confirmed as internal parts not sold to customers
+
+### Revenue
+- Total revenue across all 3 years: $24.9M with a 42% profit margin
+- 2015: $6.4M from only 2,630 transactions -- high average order value
+- 2016: $9.3M -- dramatic volume increase as product mix shifted
+- 2017: $9.2M in first half only -- on pace to significantly exceed 2016
+- Clear Q4 acceleration pattern each year -- Q4 2016 was $3.8M alone
+- 2017 Q2 is highest single quarter on record at $5.1M
+
+### Products
+- Bikes drive 94.9% of total revenue ($23.6M) from only 16.5% of units sold
+- Accessories represent 68.7% of units sold but only 3.6% of revenue
+- Mountain-200 and Road-250 dominate top 10 products by revenue
+- Road-150 Red is most expensive product at $3,578 -- dominated early 2015 sales
+- Bottom 10 products all accessories -- Racing Socks lowest at $4,575 total revenue
+- Mountain-300 and Road-450 product lines never sold in any year -- dead stock
+
+### Customers
+- 18,148 total customers -- average spend $1,430 per customer
+- Professionals are largest segment (5,219 customers) and highest avg spend ($476 per sale)
+- Core customer is middle income $40K-$70K -- not a luxury market
+- $70K income bracket generates most revenue at $3.78M
+- Near perfect gender split -- female customers slightly higher total revenue ($12.5M vs $12.2M)
+- Lowest single customer spend: $2.29 -- one Patch Kit purchase
+
+### Territories
+- Australia is single biggest territory at $7.4M -- larger than any individual US region
+- Southwest US strongest domestic region at $4.8M
+- Three US territories essentially inactive across all 3 years:
+  - Southeast US: $11,585 total revenue
+  - Northeast US: $6,401 total revenue  
+  - Central US: $3,143 total revenue
+- Pacific customers spend $2,131 per customer vs $1,111 for North America
+- Pacific customers are 92% more valuable individually than North American customers
+
+### Returns
+- Overall return rate: 2.17% -- healthy for retail
+- Road-650 Red highest return rate at 11.76% -- likely product quality issue
+- Multiple Road-650 Red sizes in top 20 returns -- model specific problem not random
+- All territories show consistent return rates between 2.04% and 2.37%
+- Returns growing proportionally with sales -- no worsening trend detected
+- Original returns query had JOIN error causing 100%+ rates -- fixed using subqueries
+
+### Data Quality
+- All customer key columns fully populated -- zero NULL values
+- Zero NULL dates across all three sales tables
+- No extra spaces found in customer name columns
+- Names stored in ALL CAPS -- corrected using custom dbo.ProperCase function
+- StockDate column contains dates from 2001 -- original inventory date, not sale related
+- 123 customer records have no gender value recorded
+
+
