@@ -20,9 +20,9 @@ In Progress
 
 | File | Description | Status |
 |---|---|---|
-| [01_exploratory_analysis.sql](01exploratory_analysis.sql.sql) | Row counts, data quality checks, date ranges | Complete | 
+| [01_exploratory_analysis.sql](01exploratory_analysis.sql.sql) | Row counts, data quality checks, date ranges, dead stock | Complete | 
 | [02_descriptive_analysis.sql](./02descriptive_analysis.sql) | Revenue summaries, top products, customers, territories, returns | Complete |
-| 03_time_intelligence.sql | Month over month, seasonality, running totals |  Not Started |
+| [03_time_intelligence.sql](./03_time_intelligence.sql)  | Yearly, quarterly, monthly trends, seasonality, category growth |  Complete |
 | 04_customer_analysis.sql | Top customers, segments, new vs returning |  Not Started |
 | 05_returns_analysis.sql | Return rates, problem products, regions | Not Started |
 
@@ -87,5 +87,16 @@ In Progress
 - Names stored in ALL CAPS -- corrected using custom dbo.ProperCase function
 - StockDate column contains dates from 2001 -- original inventory date, not sale related
 - 123 customer records have no gender value recorded
-
+  
+### Time Intelligence
+- 2015 was 100% bikes — Accessories and Clothing launched July 2016
+- July 2016 inflection point explains every growth anomaly in the dataset
+- 2017 reached $9M cumulative revenue in 6 months vs 12 months for 2015 and 2016
+- 2016 grew 45.58% over 2015 — largest year over year jump in dataset
+- Q2 is strongest quarter on average, Q3 is consistently weakest
+- Two seasonal peaks: June and December separated by summer trough
+- Day of week analysis shows flat distribution — consistent with online retail
+- Bike revenue grew 37% in 2016 independent of new category launches
+- Accessories on pace for $1M+ full year 2017 — 153% year over year growth
+- First $10M took 19 months, second $10M took only 8 months
 
