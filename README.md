@@ -14,7 +14,7 @@ AdventureWorks - 10 tables including 3 years of sales data (2015-2017),
 customers, products, returns, territories, and a calendar table.
 
 ## Project Status
-In Progress — Exploratory, Descriptive, Time Intelligence, and Customer Analysis Complete
+Complete
 
 ## Analysis Files
 
@@ -23,8 +23,8 @@ In Progress — Exploratory, Descriptive, Time Intelligence, and Customer Analys
 | [01_exploratory_analysis.sql](01exploratory_analysis.sql.sql) | Row counts, data quality checks, date ranges, dead stock | Complete | 
 | [02_descriptive_analysis.sql](./02descriptive_analysis.sql) | Revenue summaries, top products, customers, territories, returns | Complete |
 | [03_time_intelligence.sql](03time_intelligence.sql)  | Yearly, quarterly, monthly trends, seasonality, category growth |  Complete |
-|[04_customer_analysis.sql](04customer_analysis.sql) | Customer growth, retention, RFM segmentation, demographics, lifetime value | 🟢 Complete |
-| 05_returns_analysis.sql | Return rates, problem products, regions | Not Started |
+| [04_customer_analysis.sql](04customer_analysis.sql) | Customer growth, retention, RFM segmentation, demographics, lifetime value | Complete |
+| [05_returns_analysis.sql](./05_returns_analysis.sql) | Return rates, product issues, territory patterns, revenue impact, trends | Complete |
 
 ## Key Findings
 *(Will be updated as analysis progresses)*
@@ -112,3 +112,17 @@ In Progress — Exploratory, Descriptive, Time Intelligence, and Customer Analys
 - Ideal customer: late 50s, Professional or Management, $80K-$110K, home owner, 4+ orders
 - One ideal customer worth approximately 148x a typical low value buyer
 
+### Returns Analysis
+- Overall return rate 2.17% — healthy for retail (industry average 8-10%)
+- Road-650 Red has model wide problem at 11.76% return rate across all sizes
+- Mountain-100 sizes 44+ have elevated rates — sizes 38 and 42 have zero returns
+- Only 6 products were sold and never returned
+- Clothing returns driven by sizing — Caps at 1.11% (one size fits all) confirms root cause
+- All territories between 2.04% and 2.37% — geography is not the problem
+- Return rate stabilised at 2.1% from July 2016 onwards — healthy equilibrium reached
+- $765,278 total revenue lost to returns — 3.07% of total revenue
+- Mountain-200 highest absolute revenue loss despite moderate return rate — volume effect
+- Top 22 products generate 64.6% of all returns — highly actionable concentration
+- Bikes returned within 60 days on average — fit issues discovered immediately
+- Accessories returned after 100+ days on average — quality or expectation mismatch
+- Fixing top 22 problem products would eliminate nearly two thirds of all return volume
