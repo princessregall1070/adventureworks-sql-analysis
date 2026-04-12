@@ -100,3 +100,15 @@ In Progress
 - Accessories on pace for $1M+ full year 2017 — 153% year over year growth
 - First $10M took 19 months, second $10M took only 8 months
 
+### Customer Analysis
+- 73.87% of customers bought only once and never returned
+- Only 298 customers (1.71%) bought across all three years
+- At Risk segment holds $2.48M in revenue -- Maurice Shan top priority
+- Road-150 Red single purchase churners: premium buyers lost before accessories launched
+- Australia generates $2,131 per customer vs $1,111 for North America
+- Top 31% of customers generate 82.61% of revenue
+- $2,000-$4,999 spend band is revenue engine: 24% of customers, 52.47% of revenue
+- 49.31% of customers spend under $500 generating only 2.88% of revenue
+- Ideal customer: late 50s, Professional or Management, $80K-$110K, home owner, 4+ orders
+- One ideal customer worth approximately 148x a typical low value buyer
+
