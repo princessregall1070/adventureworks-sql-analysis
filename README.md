@@ -24,7 +24,7 @@ Complete
 | [02_descriptive_analysis.sql](./02descriptive_analysis.sql) | Revenue summaries, top products, customers, territories, returns | Complete |
 | [03_time_intelligence.sql](03time_intelligence.sql)  | Yearly, quarterly, monthly trends, seasonality, category growth |  Complete |
 | [04_customer_analysis.sql](04customer_analysis.sql) | Customer growth, retention, RFM segmentation, demographics, lifetime value | Complete |
-| [05_returns_analysis.sql](./05_returns_analysis.sql) | Return rates, product issues, territory patterns, revenue impact, trends | Complete |
+| [05_returns_analysis.sql](05_returns_analysis.sql) | Return rates, product issues, territory patterns, revenue impact, trends | Complete |
 
 ## Key Findings
 *(Will be updated as analysis progresses)*
